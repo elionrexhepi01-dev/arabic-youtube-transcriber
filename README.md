@@ -1,4 +1,4 @@
-Arabic YouTube Transcriber
+# Arabic YouTube Transcriber
 
 
 
@@ -10,7 +10,7 @@ Powered by Faster-Whisper and the Whisper large-v3 model, the project generates 
 
 
 
-Features
+## Features
 
 
 
@@ -42,7 +42,7 @@ Transcripts can be converted to SRT format and edited using subtitle editing sof
 
 
 
-Recommended Workflow
+## Recommended Workflow
 
 
 
@@ -54,7 +54,7 @@ Based on testing, the following workflow produced the most accurate results:
 
 
 
-1\. Obtain the YouTube audio
+### 1\. Obtain the YouTube audio
 
 
 
@@ -62,7 +62,7 @@ Download or extract the audio from the YouTube video you want to transcribe.
 
 
 
-2\. Enhance the audio
+### 2\. Enhance the audio
 
 
 
@@ -74,7 +74,7 @@ This tool helps improve speech clarity and reduce background noise. Its free tie
 
 
 
-3\. Export as WAV
+### 3\. Export as WAV
 
 
 
@@ -86,7 +86,7 @@ This was the preferred audio format in testing and provided the best results whe
 
 
 
-4\. Run the transcription
+### 4\. Run the transcription
 
 
 
@@ -98,7 +98,7 @@ Important: Skipping audio enhancement or using unclear, noisy, or poorly process
 
 
 
-Technologies
+## Technologies
 
 
 
@@ -122,7 +122,7 @@ NVIDIA CUDA
 
 
 
-Requirements
+## Requirements
 
 
 
@@ -142,7 +142,7 @@ Enhanced audio recording in WAV format (recommended).
 
 
 
-Installation
+## Installation
 
 
 
@@ -168,7 +168,7 @@ For GPU acceleration, ensure the required NVIDIA CUDA and cuDNN libraries are in
 
 
 
-Usage
+## Usage
 
 
 
@@ -204,7 +204,7 @@ The transcription will be printed in the terminal and saved to a .txt file.
 
 
 
-Transcription Output
+## Transcription Output
 
 
 
@@ -244,7 +244,7 @@ The model is downloaded automatically by Faster-Whisper on its first use.
 
 
 
-Accuracy Notes
+## Accuracy Notes
 
 
 
@@ -256,7 +256,7 @@ For the most reliable results, follow the recommended audio enhancement workflow
 
 
 
-License
+## License
 
 
 
